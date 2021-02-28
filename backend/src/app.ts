@@ -23,7 +23,7 @@ async function start() {
     })
 
     app.listen(config.backend.port, () => {
-      console.log(`---------- localhost:${config.backend.port} started ----------`)
+      console.log(`---------- backend started ----------`)
     })
   } catch (error) {
     console.log(error)
