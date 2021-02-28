@@ -1,0 +1,6 @@
+{
+  "watch": [
+    "src/**/*.ts"
+  ],
+  "exec": "tsc && node dist/backend/src/app.js"
+}
